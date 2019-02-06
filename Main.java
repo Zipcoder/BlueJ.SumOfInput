@@ -19,12 +19,8 @@ public class Main {
             }
             System.out.printf("\nThe sum from 0 to %d is %d.",number,container);
         }
-        catch( Exception err ){
+        catch( Exception e){
             System.out.println("You didn't enter an integer positive number. \nTry again!");
         }
-        
-       
-        
-        //
     }
 }
