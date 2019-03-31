@@ -12,14 +12,12 @@ public class Main {
         try{
         int number = input.nextInt();
         int container = 0;
-        //System.out.println(number);
             for(int i = 0; i <= number; i++){
                 container += i;
-                //System.out.println(container);
             }
             System.out.printf("\nThe sum from 0 to %d is %d.",number,container);
         }
-        catch( Exception e){
+        catch( Exception e ){
             System.out.println("You didn't enter an integer positive number. \nTry again!");
         }
     }
