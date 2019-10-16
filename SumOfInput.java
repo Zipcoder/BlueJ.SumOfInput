@@ -19,7 +19,13 @@ public class SumOfInput
     }
     
     public Integer oneToNumber(Integer numberToSum){
-
+       
+        // numberToSum is the value that should be used to loop to find the sum
+        sum = 0;
+        for (int i = 1 ; i <= numberToSum ; i++)
+        {
+            sum = sum + i;
+        }
         return sum;
     }
 
