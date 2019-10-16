@@ -19,7 +19,15 @@ public class SumOfInput
     }
     
     public Integer oneToNumber(Integer numberToSum){
-
+        
+        int i;
+        sum = 0;
+        
+        for (i = 1; i <= numberToSum; i++){
+            sum = sum + i;
+        }
+        
+        System.out.println(sum);
         return sum;
     }
 
