@@ -1,8 +1,9 @@
 /**
- * Write a description of class SumOfInput here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * class SumOfInput takes a number and the sum is all the numbers before it
+ * added together. EX: for 5 it would be, 1 + 2 + 3 + 4 + 5 = 15.
+ * 
+ * @author (Sandy Pham)
+ * @version (10/17/19)
  */
 public class SumOfInput
 {
@@ -16,11 +17,14 @@ public class SumOfInput
     {
         // initialise instance variables
         sum = 0;
+       
     }
     
     public Integer oneToNumber(Integer numberToSum){
-
+        sum = 0;
+        for (int x = 0; x <= numberToSum; x++)
+            sum = sum + x;
         return sum;
     }
-
 }
+
