@@ -12,15 +12,22 @@ public class SumOfInput
     /**
      * Constructor for objects of class SumOfInput
      */
-    public SumOfInput()
+    public  SumOfInput()
     {
         // initialise instance variables
         sum = 0;
+       
     }
     
     public Integer oneToNumber(Integer numberToSum){
-
-        return sum;
+        
+        int sumB = 0;
+        
+        for (int i=1; i<=numberToSum; i++)
+            sumB = sumB + i;
+            
+        return sumB;
+      
     }
-
+  
 }
