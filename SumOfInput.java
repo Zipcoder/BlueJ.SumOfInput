@@ -19,7 +19,10 @@ public class SumOfInput
     }
     
     public Integer oneToNumber(Integer numberToSum){
-
+        sum = 0; //Had to reinitialize sum for program to work
+        for(int i = 0; i <= numberToSum; i++) {
+            sum = sum + i;
+        }
         return sum;
     }
 
