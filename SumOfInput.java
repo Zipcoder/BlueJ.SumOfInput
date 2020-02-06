@@ -19,8 +19,10 @@ public class SumOfInput
     }
     
     public Integer oneToNumber(Integer numberToSum){
-
-        return sum;
-    }
-
+sum = 0;
+for (int i = 1; i <= numberToSum; i++) {
+sum = sum += i;
+}
+    return sum;
+}
 }
