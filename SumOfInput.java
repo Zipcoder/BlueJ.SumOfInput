@@ -19,9 +19,9 @@ public class SumOfInput
     }
     
     public Integer oneToNumber(Integer numberToSum){
-         
-        for (int n = 1; n <= numberToSum; n++) 
-        sum = n/2*(n+1); 
+        sum= 0;
+        for (int i = 1; i <= numberToSum; i++) {
+        sum = sum + i; }
         return sum;
     }
 
