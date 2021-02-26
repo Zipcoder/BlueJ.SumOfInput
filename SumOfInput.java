@@ -7,7 +7,7 @@
 public class SumOfInput
 {
     // instance variables - replace the example below with your own
-    private Integer sum;
+    private Integer answer;
 
     /**
      * Constructor for objects of class SumOfInput
@@ -15,12 +15,12 @@ public class SumOfInput
     public SumOfInput()
     {
         // initialise instance variables
-        sum = 0;
+        answer = 0;
     }
     
     public Integer oneToNumber(Integer numberToSum){
-
-        return sum;
+        answer = numberToSum + 1;
+        return answer;
     }
 
 }
