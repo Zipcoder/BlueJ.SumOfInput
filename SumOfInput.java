@@ -15,11 +15,13 @@ public class SumOfInput
     public SumOfInput()
     {
         // initialise instance variables
+        int testSum; 
         sum = 0;
+        
     }
     
     public Integer oneToNumber(Integer numberToSum){
-
+        sum = numberToSum + 1;
         return sum;
     }
 
