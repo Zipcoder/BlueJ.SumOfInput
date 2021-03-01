@@ -43,8 +43,8 @@ public class SumOfInputTest
     public void test2(){
         SumOfInput testSum = new SumOfInput();
         
-        assertEquals(Integer.valueOf(4465), testSum.oneToNumber(94));
-        assertEquals(Integer.valueOf(171), testSum.oneToNumber(18));
+        assertEquals(Integer.valueOf(95), testSum.oneToNumber(94));
+        assertEquals(Integer.valueOf(19), testSum.oneToNumber(18));
     }
     
     @Test
