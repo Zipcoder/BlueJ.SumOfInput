@@ -23,10 +23,10 @@ public class SumOfInput
         for (int i= 0; i <= numberToSum; i++) {
             sum += i;
         }
-        int x = sum;
+        int j = sum;
         sum = 0;
         
-        return x;
+        return j;
     }
 
 }
