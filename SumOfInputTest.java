@@ -20,6 +20,7 @@ public class SumOfInputTest
     //in the class?
     public SumOfInputTest()
     {
+        Integer sum = 0;
     }
 
     @Before
