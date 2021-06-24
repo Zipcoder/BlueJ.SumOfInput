@@ -16,11 +16,15 @@ public class SumOfInput
     {
         // initialise instance variables
         sum = 0;
+        
     }
     
     public Integer oneToNumber(Integer numberToSum){
-
-        return sum;
+            
+           int n = (numberToSum * numberToSum) + (numberToSum + 1);
+           int i = n/2;
+            
+        return (sum + i);
     }
 
 }
