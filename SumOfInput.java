@@ -14,12 +14,13 @@ public class SumOfInput
      */
     public SumOfInput()
     {
-        // initialise instance variables
+        
         sum = 0;
     }
     
     public Integer oneToNumber(Integer numberToSum){
-
+        int n = numberToSum;
+        int sum = (n*(n+1))/2;
         return sum;
     }
 
