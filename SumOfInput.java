@@ -8,6 +8,8 @@ public class SumOfInput
 {
     // instance variables - replace the example below with your own
     private Integer sum;
+    private Integer numberToSum;
+    private Integer num;
 
     /**
      * Constructor for objects of class SumOfInput
@@ -19,6 +21,13 @@ public class SumOfInput
     }
     
     public Integer oneToNumber(Integer numberToSum){
+        sum = 0;
+        for (num = 1; num <= numberToSum; num++) {
+            sum += num;
+            
+        } 
+        
+        System.out.println(sum);
 
         return sum;
     }
