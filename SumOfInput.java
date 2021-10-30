@@ -19,8 +19,11 @@ public class SumOfInput
     }
     
     public Integer oneToNumber(Integer numberToSum){
-
-        return sum;
+        this.sum = 0;
+        for(int i = 1; i <= numberToSum; i++){
+            this.sum+=i;
+        }
+        return this.sum;
     }
 
 }
